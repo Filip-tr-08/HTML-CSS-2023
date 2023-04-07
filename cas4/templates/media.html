@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Video, audio and iframe" />
+    <meta name="keywords" content="video, audio, iframe" />
+    <meta name="authors" content="Filip Trajanovski" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <video
+        src="/videos/bond.mp4"
+        type="video/mp4"
+        controls
+        autoplay
+        muted
+        loop
+        poster="/assets/berlin-germany-october-30-actor-260nw-117289423.webp"
+        width="300px"
+        height="300px"
+      >
+        <p>Some text</p>
+      </video>
+      <!-- bidejki ima autoplay atribut ne se pojavuva posterot, za da se pojavi trgni go atributot autoplay -->
+    </div>
+
+    <div>
+      <audio
+        src="/audios/DeniTeCuva-Navivacka.mp3"
+        type="audio/mp3"
+        controls
+        loop
+        autoplay
+        muted
+      ></audio>
+    </div>
+
+    <div>
+      <iframe
+        width="300px"
+        height="300px"
+        src="https://semosedu.com.mk/Home_page.aspx"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>

@@ -9,116 +9,126 @@
   <br />
   <body>
     <form method="get" action="">
-      <label for="username">Username: </label>
-      <input
-        type="text"
-        name="username"
-        id="username"
-        required
-        placeholder="FilipT"
-      />
-      <br /><br />
+      <fieldset>
+        <legend>Naslov na formata</legend>
+        <label for="username">Username: </label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          required
+          placeholder="FilipT"
+        />
+        <br /><br />
 
-      <label for="password">Password: </label>
-      <input type="password" name="password" id="password" />
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" />
 
-      <br /><br />
+        <br /><br />
 
-      <label for="description">Description</label>
-      <textarea
-        name="description"
-        id="description"
-        cols="40"
-        rows="10"
-      ></textarea>
+        <label for="description">Description</label>
+        <textarea
+          name="description"
+          id="description"
+          cols="40"
+          rows="10"
+        ></textarea>
 
-      <br /><br />
+        <br /><br />
 
-      <label for="email">Email: </label>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="example@gmail.com"
-      />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="example@gmail.com"
+        />
 
-      <br /><br />
-      <label for="age">Age: </label>
-      <input type="number" name="age" id="age" />
+        <br /><br />
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" />
 
-      <br /><br />
-      <label for="favColor">Favourite Colour: </label>
-      <input type="color" name="favColor" id="favColor" />
+        <br /><br />
+        <label for="favColor">Favourite Colour: </label>
+        <input type="color" name="favColor" id="favColor" />
 
-      <br /><br />
+        <br /><br />
 
-      <label for="cv">Insert your cv here: </label>
-      <input type="file" name="cv" id="cv" />
+        <label for="cv">Insert your cv here: </label>
+        <input type="file" name="cv" id="cv" />
 
-      <br /><br />
-      <label for="date">Date of Birth: </label>
-      <input
-        type="date"
-        name="date"
-        id="date"
-        min="1970-01-01"
-        max="2025-01-01"
-      />
+        <br /><br />
+        <label for="date">Date of Birth: </label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+          min="1970-01-01"
+          max="2025-01-01"
+        />
 
-      <br /><br />
-      <p>Choose your gender:</p>
-      <input type="radio" name="gender" id="male" value="male" />
-      <label for="male">Male</label>
-      <input type="radio" name="gender" id="female" value="female" />
-      <label for="female">Female</label>
+        <br /><br />
+        <p>Choose your gender:</p>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
 
-      <br /><br />
+        <br /><br />
 
-      <p>Please select your favourite music genre(s):</p>
+        <p>Please select your favourite music genre(s):</p>
 
-      <label for="rock">Rock</label>
-      <input type="checkbox" name="genre" id="rock" value="rock" />
+        <label for="rock">Rock</label>
+        <input type="checkbox" name="genre" id="rock" value="rock" />
 
-      <label for="heavyMetal">Heavy Metal</label>
-      <input type="checkbox" name="genre" id="heavyMetal" value="heavyMetal" />
+        <label for="heavyMetal">Heavy Metal</label>
+        <input
+          type="checkbox"
+          name="genre"
+          id="heavyMetal"
+          value="heavyMetal"
+        />
 
-      <label for="clasical">Clasical</label>
-      <input
-        type="checkbox"
-        name="genre"
-        id="clasical"
-        value="clasical"
-        checked
-      />
+        <label for="clasical">Clasical</label>
+        <input
+          type="checkbox"
+          name="genre"
+          id="clasical"
+          value="clasical"
+          checked
+        />
 
-      <br /><br />
+        <br /><br />
 
-      <label for="city">Choose your city: </label>
-      <select name="city" id="city">
-        <option disabled selected>Please select one city</option>
-        <option value="Skopje">Skopje</option>
-        <option value="Bitola">Bitola</option>
-        <option value="Tetovo">Tetovo</option>
-      </select>
+        <label for="city">Choose your city: </label>
+        <select name="city" id="city">
+          <option disabled selected>Please select one city</option>
+          <option value="Skopje">Skopje</option>
+          <option value="Bitola">Bitola</option>
+          <option value="Tetovo">Tetovo</option>
+        </select>
 
-      <br /><br />
+        <br /><br />
 
-      <label for="instruments">Which instrument(s) you know how to play?</label>
-      <select name="intruments" id="instruments" multiple="multiple" size="3">
-        <option value="guitar">Guitar</option>
-        <option value="drums">Drums</option>
-        <option value="bass">Bass</option>
-        <option value="piano">Piano</option>
-        <option value="flute">Flute</option>
-      </select>
+        <label for="instruments"
+          >Which instrument(s) you know how to play?</label
+        >
+        <select name="intruments" id="instruments" multiple="multiple" size="3">
+          <option value="guitar">Guitar</option>
+          <option value="drums">Drums</option>
+          <option value="bass">Bass</option>
+          <option value="piano">Piano</option>
+          <option value="flute">Flute</option>
+        </select>
 
-      <br /><br />
+        <br /><br />
 
-      <input type="submit" value="Submit" />
-      <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
 
-      <!-- vtor nacin za kreiranje na submit kopce -->
-      <!-- <button type="submit">Submit</button> -->
+        <!-- vtor nacin za kreiranje na submit kopce -->
+        <!-- <button type="submit">Submit</button> -->
+      </fieldset>
     </form>
   </body>
 </html>
