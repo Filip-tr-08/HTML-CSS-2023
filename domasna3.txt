@@ -1,0 +1,3 @@
+Napravete web strana so osnovnata html struktura. Web stranata neka bide po vas izbor pr. za filmovi, serii, 
+sportska strana, za vasa kompanija itn.
+Na krajot od stranata dodadete vo posebni div elementi edno video i eden iframe. 
