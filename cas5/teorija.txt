@@ -1,0 +1,19 @@
+CSS = Cascading Style Sheets
+CSS ni dozvoluva da pravime pravila (rules) za nasite html elementi
+
+Struktura za css pravilo (rule) : selector i declaration
+p {
+ color: red;   
+}
+
+Tri nacini kako se koristi CSS:
+1. Inline 
+2. Embedded
+3. External CSS
+
+Cetiri nacini za dodavanje boja na html elementi:
+
+1. color ime
+2. rgb vrednost
+3. hex codes
+4. Hsl kod

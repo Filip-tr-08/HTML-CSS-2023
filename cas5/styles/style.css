@@ -1,0 +1,85 @@
+/* h1 {
+  color: green;
+  font-size: xx-large;
+  background-color: chocolate;
+} */
+
+ul {
+  background-color: blue;
+  width: 500px;
+}
+
+/* p {
+  color: red;
+} */
+
+#greenParagraph {
+  color: green;
+}
+
+#redParagraph {
+  color: red;
+}
+
+#blue-paragraph {
+  color: blue;
+}
+
+#violetParagraph {
+  color: violet;
+}
+
+/* h1 {
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+h4 {
+  color: green;
+}
+
+h5 {
+  color: green;
+} */
+
+.heading {
+  color: green;
+}
+
+/* dodavanje na css propertija na povekje elementi */
+/* h1,
+h3,
+h4,
+h5 {
+  color: green;
+} */
+
+#divElement {
+  background-color: blue; /* boja na pozadina */
+  color: red; /*boja na tekst */
+}
+
+li {
+  /* rgb kod na boja */
+  /* color: rgb(81, 117, 84); */
+  color: rgb(223, 0, 0);
+}
+
+/* rgba kod na boja (a za opacity)*/
+/* #last-paragraph {
+  background-color: rgba(223, 0, 0, 1);
+} */
+
+/* hex kod  */
+#last-paragraph {
+  background-color: #c8a8c4;
+}
+
+/* hsl kod (hue, saturation, lightness) */
+/* #last-paragraph {
+  background-color: hsl(0, 45%, 68%);
+  background-color: hsla(0, 45%, 68%, 0.5);
+} */
