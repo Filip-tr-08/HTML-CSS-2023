@@ -1,0 +1,9 @@
+Selektors:
+1. Universal selector - *  
+2. Type selector (ime na elementite)  - h1 , h2, p etc.
+3. Class selector - .class
+4. child selector - <li>a  Primer: <li><a>Link</a></li>
+5. Descendant selector - li a Primer: <li> <ul> <li><a>Link</a> </li> </ul></li>
+6. Adjacent sibling selector - h1+p  Primer: <h1>Heading</h1> <p>Paragraph</p> (ke go pogodi samo prviot paragraf posle h1)
+7. General sibling selector - h1~p Primer: <h1>Heading</h1> <p>Paragraph</p> <p>Paragraph2</p> (ke gi pogodi i dvata paragrafi)
+8. Id selector - #id

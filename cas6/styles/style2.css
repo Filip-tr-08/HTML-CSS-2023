@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  /* font-size: xx-large; */
+  /* relative length units: em, rem, vh, vw */
+  font-size: 20vh;
+}
+
+p {
+  font-size: xx-large;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h2 {
+  /* absolute length units: px, cm, mm, in*/
+  font-size: 50px;
+}
+
+a {
+  font-size: 100%;
+}
+
+div > p {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}

@@ -1,0 +1,46 @@
+/* Universal selector */
+* {
+  color: red;
+}
+
+/* Type selector */
+
+h1 {
+  color: blue;
+}
+
+/* Class selector  */
+
+.prv_div {
+  color: green;
+}
+
+/* Id selector */
+
+#vtor_div {
+  color: violet;
+}
+
+/* Child selector */
+
+li > a {
+  color: chartreuse;
+}
+
+/* Descendant selector */
+
+li p {
+  color: chocolate;
+}
+
+/* Adjacent sibling selctor */
+
+h1 + p {
+  color: darkblue;
+}
+
+/* General sibling selector */
+
+h2 ~ p {
+  color: darkgreen;
+}

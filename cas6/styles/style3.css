@@ -1,0 +1,30 @@
+body {
+  background-color: darkblue;
+  background-image: url("/Pictures/spring.jpg");
+  background-repeat: no-repeat;
+  /* vrednosti za background-size: auto, contain i cover */
+  background-size: cover;
+}
+
+/* display svojstvo : inline, block, inline-block */
+
+/* h1 {
+  background-color: darkblue;
+  width: 400px;
+}
+
+p {
+  background-color: red;
+  display: inline;
+}
+
+a {
+  background-color: green;
+  width: 600px;
+}
+
+h2 {
+  background-color: blueviolet;
+  display: inline-block;
+  width: 400px;
+} */
