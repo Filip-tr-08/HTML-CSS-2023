@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+/* PRIMER 1 za relative positioning */
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+}
+
+#two {
+  position: relative;
+  top: 200px;
+  left: 600px;
+  background-color: blue;
+} */
+
+/* PRIMER 2 Absolute positioning */
+.relative {
+  position: relative;
+  left: 0px;
+  width: 400px;
+  height: 300px;
+  border: 2px dashed red;
+}
+
+.absolute {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 200px;
+  border: 2px dotted blue;
+}
+
+.absolute2 {
+  border: 2px solid green;
+  position: absolute;
+  left: 0px;
+  width: fit-content;
+  top: 10px;
+}

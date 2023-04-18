@@ -28,3 +28,64 @@ h2 {
   display: inline-block;
   width: 400px;
 } */
+
+.glaven_div {
+  /* property za alternativen box model */
+  box-sizing: border-box;
+  width: 600px;
+  height: 600px;
+  background-color: rgba(149, 16, 137, 0.7);
+
+  /* border-style: solid;
+ 
+  border-color: black;
+  border-top-color: red;
+  border-bottom-color: green;
+  border-width: 20px 30px;
+  border-width: 20px 50px 15px 10px; */
+
+  /* border-color: red; */
+  border-color: red green yellow blue;
+  /* border-width vrednosti so zborovi : thin, medium, thick */
+  border-width: 40px;
+  border-style: ridge;
+  /* border e zamena za border-width, border-style, border-color */
+  /* border: 10px dashed black; */
+
+  /* padding: 100px; */
+  /* padding: 20px 30px; */
+
+  /* padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 10px; */
+
+  padding: 30px 40px 20px 10px;
+
+  /* ako stavime margin:auto go stavame elementot na sredina od nasata web strana */
+  /* margin: auto; */
+
+  /* margin-top: 100px;
+  margin-bottom: 200px;
+
+  margin: 10px 20px; */
+
+  margin: 20px 30px 50px 40px;
+  /* overflow: hidden; */
+  /* overflow: auto; */
+  overflow: scroll;
+}
+
+.round_img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid black;
+  /* decki ovoj del za slikata da bide zaoblena ke vi go objasnam nareden cas  */
+  overflow: hidden;
+}
+
+.round_img img {
+  width: 100%;
+  height: 100%;
+}
