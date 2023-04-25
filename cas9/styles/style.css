@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  /* grid-template-columns: 70% 30%; */
+  /* grid-template-columns: 30% 30% 40%; */
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  /* grid-template-rows: 1fr 1fr; */
+  /* row-gap: 50px;
+  column-gap: 20px; */
+  gap: 20px; /*vazi i za redovi i za koloni*/
+  /* grid-auto-rows: 500px; */
+  grid-template-columns: repeat(4, 1fr); /*1fr 1fr 1fr*/
+  grid-template-rows: 4;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+
+.grid div {
+  background-color: grey;
+  padding: 20px;
+}
+
+.grid div:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+.grid-item {
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  grid-column: 1/3; /*isto kako grid-column-start:1  /   grid-column-end:3 */
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+}
