@@ -1,0 +1,55 @@
+.stage {
+  border: 3px solid gray;
+  height: 25px;
+  position: relative;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  20% {
+    left: 100px;
+    bottom: 3px;
+  }
+
+  50% {
+    left: 220px;
+  }
+
+  70% {
+    left: 400px;
+  }
+
+  85% {
+    left: 500px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.stage:hover .ball {
+  /* animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 2; */
+
+  /* animation-name animation duration animation-timing-function animation-delay animation-iteration-count */
+  animation: slide 2s linear 0s 2;
+}
+
+.stage:active .ball {
+  animation-play-state: paused;
+}

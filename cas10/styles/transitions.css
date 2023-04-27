@@ -1,0 +1,73 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.box {
+  background-color: green;
+  display: flex;
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+
+  /* Transition properties */
+
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  transition-delay: 3s;
+  /* zamena za site e transition svojstvoto */
+}
+
+.box:hover {
+  background-color: orange;
+}
+
+.box2 {
+  background-color: green;
+  display: flex;
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: background-color, border-radius;
+  transition-duration: 2.3s, 1s;
+  transition-timing-function: linear;
+}
+
+.box2:hover {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.box3 {
+  background-color: green;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+
+  /* so all gi pogoduvame site propertija sto sakame da gi promenime */
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+.box3:hover {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+
+/* primeri za pseudo clasi: hover, active, focus */
+/* vrednosti za transition-timing-function: ease, ease-in-out, ease-out, linear, ease-in */

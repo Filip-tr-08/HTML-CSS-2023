@@ -1,0 +1,103 @@
+body {
+  background-color: green;
+  /* so important go pravime ova property najmokjno, moze da se dodade na bilo koe property od bilo koj element */
+  /* color: blue !important; */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.single-dice {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 20px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+.single-dice:hover {
+  transform: skew(10deg, 10deg);
+}
+
+.single-dot {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1, 1);
+}
+
+.single-dice:hover .single-dot {
+  transform: scale(0, 0);
+  /* transform: scale(2, 2); */
+}
+
+.dice_number {
+  text-align: center;
+  line-height: 200px;
+  width: 100%;
+  margin: 0;
+  /* visibility: hidden; */
+  transition: all 0.4s ease-in-out;
+  transform: scale(0, 0);
+}
+
+.single-dice:hover .dice_number {
+  transform: scale(1, 1);
+  /* transform: rotate(180deg); */
+}
+
+.centar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  /* transition: all 0.4s ease-in-out; */
+}
+
+/* .single-dice:hover .centar {
+  transform: translate(10px, 20px);
+} */
+
+.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.bottom-right {
+  right: 20px;
+  bottom: 20px;
+}
+
+.top-right {
+  top: 20px;
+  right: 20px;
+}
+
+.bottom-left {
+  left: 20px;
+  bottom: 20px;
+}
+
+.top-centar {
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bottom-centar {
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
